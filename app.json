@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ap3",
+    "name": "IMC App",
     "slug": "ap3",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,14 +17,12 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#131a30"
+      },
+      "package": "com.gate7.ap3"
     },
     "web": {
       "favicon": "./assets/favicon.png"
