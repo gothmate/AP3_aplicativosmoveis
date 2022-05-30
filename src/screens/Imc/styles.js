@@ -12,8 +12,13 @@ export const styles = StyleSheet.create({
     },
     text: {
         color: '#fff',
-        marginTop: 30,
-        fontSize: 15,
+        fontSize: 18,
+        margin: 10,
+    },
+    text_res: {
+        color: '#fff',
+        marginTop: 10,
+        fontSize: 30,
         marginBottom: 30,
     },
     subtext: {
@@ -23,6 +28,7 @@ export const styles = StyleSheet.create({
     },
     digite: {
         width: '80%',
+        borderRadius: 5,
         padding: 10,
         backgroundColor: '#c4c4c4',
         borderRadius: 3,
