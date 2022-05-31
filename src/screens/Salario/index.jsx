@@ -12,13 +12,12 @@ export function Salario() {
     
     const calculos = () => {
         setSalario(valor * hora);
-        let res = ''
         let sal = salario
-        let descontoIR = salario*0.11
-        let descontoINSS = salario*0.08
-        let descontoSind = salario*0.05
+        let descontoIR = sal*0.11
+        let descontoINSS = sal*0.08
+        let descontoSind = sal*0.05
         
-        res = `Salário Bruto: ${salario.toFixed(2)}\nDesconto INSS: ${descontoINSS.toFixed(2)}\nDesconto IR: ${descontoIR.toFixed(2)}\nDesconto Sindicato: ${descontoSind.toFixed(2)}\nSalário Líquido: ${(sal-descontoINSS-descontoIR-descontoSind).toFixed(2)}`
+        let res = `Salário Bruto: ${salario.toFixed(2)}\nDesconto INSS: ${descontoINSS.toFixed(2)}\nDesconto IR: ${descontoIR.toFixed(2)}\nDesconto Sindicato: ${descontoSind.toFixed(2)}\nSalário Líquido: ${(sal-descontoINSS-descontoIR-descontoSind).toFixed(2)}`
 
         setResult(res);
 
